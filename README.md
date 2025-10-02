@@ -1,5 +1,6 @@
-# ProvaFinaleApi
-Prova finale di algoritmi e strutture dati A.A. 2023-2024
+# Prova finale di algoritmi e strutture dati A.A. 2023-2024
+Politecnico di Milano – Corso di Algoritmi e Principi dell’Informatica  
+Docente: Alessandro Barenghi
 
 ## Introduzione
 Il presente progetto costituisce la **prova finale del corso di Algoritmi e Strutture Dati (a.a. 2023/2024)** e ha come obiettivo l’implementazione, in linguaggio **C (standard C11)**, di un simulatore per la gestione di una pasticceria industriale.  
@@ -47,8 +48,9 @@ Presente con commenti nel file "specifiche progetto api".
 - **Modello di esecuzione**: input da `stdin`, output su `stdout`.  
 - **Vincoli**: nessun multithreading, nessuna gestione concorrente.  
 
-## Modalità di compilazione
-Compilare con:
-gcc -std=c11 -Wall -Wextra -O2 -o pasticceria main.c
-Eseguire con:
+## Modalità di compilazione ed esecuzione
+Compilare con:  
+gcc -std=c11 -Wall -Wextra -O2 -o pasticceria main.c  
+
+Eseguire con:  
 ./pasticceria < input.txt > output.txt
